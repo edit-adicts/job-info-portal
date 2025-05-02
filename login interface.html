@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: url('loginbg.jpg') no-repeat center center/cover;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .login-container {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 50px;
+            border-radius: 10px;
+            text-align: center;
+            color: white;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background: #0078D7;
+            border: none;
+            color: white;
+            font-size: 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #005a9e;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Welcome to job info portal</h2>
+        <button onclick="login()">Enter</button>
+    </div>
+
+    <script>
+        function login() {
+            window.location.href = "project website.html"; // Redirect to home page
+        }
+    </script>
+</body>
+</html>
